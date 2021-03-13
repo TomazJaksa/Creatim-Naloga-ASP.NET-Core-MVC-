@@ -1,0 +1,38 @@
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.exe
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.deps.json
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.runtimeconfig.json
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.runtimeconfig.dev.json
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.dll
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.pdb
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.Views.dll
+C:\Users\CRIMSON\source\repos\Creatim Naloga\bin\Debug\netcoreapp3.1\Creatim Naloga.Views.pdb
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.csprojAssemblyReference.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.AssemblyInfoInputs.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.AssemblyInfo.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.csproj.CoreCompileInputs.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.RazorAssemblyInfo.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.RazorAssemblyInfo.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.TagHelpers.input.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.TagHelpers.output.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.RazorCoreGenerate.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.RazorTargetAssemblyInfo.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.RazorTargetAssemblyInfo.cs
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.Views.pdb
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\staticwebassets\Creatim Naloga.StaticWebAssets.Manifest.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\staticwebassets\Creatim Naloga.StaticWebAssets.xml
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.dll
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.pdb
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.genruntimeconfig.cache
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Creatim Naloga.csproj.CopyComplete
+C:\Users\CRIMSON\source\repos\Creatim Naloga\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NewProductsVC\Default.cshtml.g.cs

@@ -1,0 +1,625 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="full-height">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0,maximum-scale=1.0" />
+    
+    <title>Creatim Naloga - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--MDB BOOTSTRAP-->
+    <link href="~/mdb/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/mdb/css/mdb.min.css" rel="stylesheet">
+    <link href="~/mdb/css/style.css" rel="stylesheet">
+    <!--MDB BOOTSTRAP-->
+
+    <!--JQUERY-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+    <!--JQUERY-->
+
+    <script src="~/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    
+
+</head>
+
+<body>
+
+    <!--Main Navigation-->
+    <header>
+      
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark special-color-dark scrolling-navbar">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand text-uppercase" href="#">Navbar</a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
+                    aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+
+                    <!-- Features -->
+                    <li class="nav-item dropdown mega-dropdown active">
+                        <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            Features
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3"
+                             aria-labelledby="navbarDropdownMenuLink2">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Lorem ipsum dolor sit amet
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Consectetur adipiscing elit
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Sed do eiusmod tempor incididunt
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Ut labore et dolore magna
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Ut enim ad minim veniam
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Quis nostrud exercitation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Duis aute irure dolor in
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Reprehenderit in voluptate
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 col-xl-3 sub-menu mb-md-0 mb-xl-0 mb-4">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Excepteur sint occaecat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Sunt in culpa qui officia
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Mollit anim id est laborum
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Accusantium doloremque laudantium
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 col-xl-3 sub-menu mb-0">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Programming</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Totam rem aperiam eaque
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Beatae vitae dicta sun
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi
+                                                architecto
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Nemo enim ipsam voluptatem
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Neque porro quisquam est
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Technology -->
+                    <li class="nav-item dropdown mega-dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink3" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Technology</a>
+                        <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3"
+                             aria-labelledby="navbarDropdownMenuLink3">
+                            <div class="row">
+                                <div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+                                    <!--Featured image-->
+                                    <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
+                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/8-col/img%20(37).jpg"
+                                             class="img-fluid" alt="First sample image">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                    <a class="news-title font-weight-bold pl-0" href="#!">Lorem ipsum dolor sit</a>
+                                    <p class="font-small text-uppercase white-text">
+                                        <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 17, 2017 / <i class="far fa-comments px-1" aria-hidden="true"></i> 20
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Quis nostrud exercitation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Duis aute irure dolor in
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Reprehenderit in voluptate
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 col-xl-4 sub-menu mb-0">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Excepteur sint occaecat
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Sunt in culpa qui officia
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Mollit anim id est laborum
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Accusantium doloremque laudantium
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Lifestyle -->
+                    <li class="nav-item dropdown mega-dropdown">
+                        <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink4" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Lifestyle</a>
+                        <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3"
+                             aria-labelledby="navbarDropdownMenuLink4">
+                            <div class="row">
+                                <div class="col-md-6 col-xl-3 sub-menu mb-4">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Lorem ipsum dolor sit amet
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Consectetur adipiscing elit
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Sed do eiusmod tempor incididunt
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Ut labore et dolore magna
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Ut enim ad minim veniam
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 col-xl-3 sub-menu mb-4 mb-xl-0">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
+                                    <!--Featured image-->
+                                    <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
+                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(43).jpg"
+                                             class="img-fluid" alt="First sample image">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                    <a class="news-title font-weight-bold pl-0" href="#!">Lorem ipsum dolor sit</a>
+                                    <p class="font-small text-uppercase white-text">
+                                        <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 17, 2017 / <i class="far fa-comments px-1" aria-hidden="true"></i> 20
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-xl-3 sub-menu mb-md-0 mb-xl-0 mb-4">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
+                                    <!--Featured image-->
+                                    <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
+                                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(44).jpg"
+                                             class="img-fluid" alt="First sample image">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                    <a class="news-title font-weight-bold pl-0" href="#!">Ut labore et dolore magna</a>
+                                    <p class="font-small text-uppercase white-text">
+                                        <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 16, 2017 / <i class="far fa-comments px-1" aria-hidden="true"></i> 25
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-xl-3 sub-menu mb-0">
+                                    <h6 class="sub-title text-uppercase font-weight-bold white-text">Programming</h6>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Totam rem aperiam eaque
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Beatae vitae dicta sun
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi
+                                                architecto
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Nemo enim ipsam voluptatem
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="menu-item pl-0" href="#!">
+                                                <i class="fas fa-caret-right pl-1 pr-3"></i>Neque porro quisquam est
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <!-- Links -->
+                <!-- Search form -->
+                <form class="form-inline">
+                    <div class="md-form my-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
+
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!-- Navbar -->
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <div class="carousel-image " id="first-image"></div>
+                        <div class="mask flex-center flex-column rgba-black-light text-white">
+                            <h1 class="display-4">Glavni naslov</h1><p class="lead">Jaz sem pa podnaslov</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <div class="carousel-image " id="second-image"></div>
+                        <div class="mask flex-center flex-column rgba-black-light text-white">
+                            <h1 class="display-4">Naslednji naslov</h1><p class="lead">Lorem ipsum</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <div class="carousel-image " id="third-image"></div>
+                        <div class="mask flex-center flex-column rgba-black-light text-white">
+                            <h1 class="display-4">Tretji slide</h1><p class="lead">Še en podnaslov</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+
+    </header>
+    <!--Main Navigation-->
+
+    <div class="container-fluid mt-4 mb-5">
+        <main role="main" class="pb-3 mx-5">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <!--footer-->
+    <footer class="page-footer font-small wow fadeIn" style="background-color:#480048">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <!-- Facebook -->
+
+                        <button type="submit" class=" btn-primary hoverable waves-light z-depth-1-half" name="provider" data-toggle="tooltip" data-placement="bottom" title="Vpiši me z  računom"><i class="grow fab fa-facebook"></i></button>
+
+                        <!--Instagram-->
+
+                        <button type="submit" class="btn-danger hoverable waves-light z-depth-1-half " name="provider" data-toggle="tooltip" data-placement="bottom" title="Vpiši me z  računom"><i class="grow  fab fa-instagram"></i></button>
+
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">
+            © 2021 Copyright:
+            <a href="#">Neko podjetje.</a><a class="ml-2" asp-area="" asp-controller="Home" asp-action="Privacy">Zasebnost</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!--footer-->
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!--MDB BOOTSTRAP-->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!--<script type="text/javascript" src="~/mdb/js/jquery-3.4.1.min.js"></script>-->
+    <script type="text/javascript" src="~/mdb/js/popper.min.js"></script>
+    <!--<script type="text/javascript" src="~/mdb/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="~/mdb/js/mdb.min.js"></script>
+    <!--[if IE 7]>
+            <script>
+            (function() {
+                alert("Hello World");
+            })();
+            </script>
+    < ![endif]-- >
+
+    <!--MDB BOOTSTRAP-->
+
+
+    <script>
+
+            $(document).ready(function () {
+                new WOW().init();
+
+            /*
+                IzpisiDoSto();
+                
+                 1. NALOGA
+                function IzpisiDoSto() {
+                    for (let i = 1; i <= 100; i++) {
+                        if (i % 3 == 0) {
+                            console.log("Trojka");
+                        } else if (i % 5 == 0) {
+                            console.log("Petka");
+                        } else {
+                            console.log(i);
+                        }
+                    }
+                }
+               
+
+                
+                 2.NALOGA
+                (function () {
+
+                    var  length = 20;
+                    for (let index = 0; index < length; index++) {
+                        setTimeout(function () {
+                            console.log(index);
+                        }, 200);
+                    }
+                })();
+                */
+            });
+
+
+              // ob scrollanju
+              $(document).scroll(function (e) {
+
+                    // grab the scroll amount and the window height
+                    var scrollAmount = $(window).scrollTop();
+                    var documentHeight = $(document).height();
+
+                    // calculate the percentage the user has scrolled down the page
+                    var scrollPercent = (scrollAmount / documentHeight) * 100;
+
+                    if (scrollPercent > 50) {
+                        // run a function called SimulateNewProducts();
+                        SimulateNewProducts();
+                    }
+
+              });
+
+            //funkcija za izpis novih izdelkov
+            function SimulateNewProducts() {
+                $.ajax({
+                    url: '@Url.Action("NewProducts", "Home")',
+                    data: { },
+                    success: function (data) {
+                        var oldId = document.getElementById("newProducts");
+
+                        //zapiši nove izdelke v div na koncu strani
+                        $('#newProducts').html(data);
+
+                        //spremeni id tega diva v used, zato ker je v novo izpisanih izdelkih tudi div z naslednjim id #newProducts, kamor se bo izpisal naslednji niz izdelkov
+                        oldId.id = "used";
+
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+
+            }
+
+            //funkcija za izpis izdelkov glede na izbran filter
+            function SimulateProducts(nOfProducts) {
+                $.ajax({
+
+                    url: '@Url.Action("SimulateProducts", "Home")',
+                    data: { nOfProducts: nOfProducts},
+                    success: function (data) {
+
+                        $('#filter').html(data);
+
+                        //izpiše nove podatke v div, in za tem ta div pobriši
+                        var cnt = $("#filter").contents();
+                        $("#filter").replaceWith(cnt);
+
+                        //pobriši vse used div-e 
+                        $("#used").remove();
+
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+
+            }
+
+           
+    </script>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+
+    </html>
